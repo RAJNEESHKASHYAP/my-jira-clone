@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper,html,body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+/* .wrapper{
+    background-color: red;
+} */
+.wrapper header{
+    background-color: white;
+    border-bottom: 1px solid;
+    display: flex;
+    padding: 20px;
+}
+.wrapper main{
+    background-color :white;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper footer{
+    margin-top: auto;
+    background-color: green;
+}
+.wrapper header .heading{
+margin-right: auto;
+
+}
+.wrapper header .plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-weight: 900;
+}
+.wrapper .box{
+    height: 300px;
+    width: 300px;
+    background-color: lightpink;
+    border-radius: 5px;
+    margin: 10px;
+}
+.box main{
+    width:200px;
+    height: 200px;
+    margin: 30px;
+    display: flex;
+
+}
+
+.box textarea{
+    align-items: center;
+    justify-content: center;
+}
+
+.box .header{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.heading{
+    margin-right: auto;
+    line-height: 60px;
+    padding-left: 15px;
+    font-weight: 900;
+}
+
+.icon{
+    background: red;
+    padding: 5px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    
+    
+    
+    
+}
+.dialog{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: none;
+
+}
+.dialog .dialog-box{
+    /* height: 100px; */
+
+    /* width: 100px; */
+    background-color: lightskyblue;
+    border-radius: 5px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+.dialog .dialog-box header{
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+    color: snow;
+    border-radius: 20px;
+
+
+}
+.dialog .dialog-box div,
+.dialog .dialog-box div input,
+.dialog .dialog-box div textarea{
+    width: 100%;
+    padding: 10px;
+border-radius: 10px;
+
+}
+.dialog .dialog-box main{
+    margin-top: 20px;
+
+}
+.X{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+background-color: tomato;
+    border-radius: 40%;
+
+
+
+}
+.dialog .dialog-box .grn{
+    width:30px;
+    height:30px;
+    position: absolute;
+   bottom: -10px; left: 0;
+   background-color: rgb(142, 255, 119);
+   border-radius: 40%;
+   line-height: 50px;
+}
+.dialog .dialog-box .blu{
+    width:30px;
+    height:30px;
+    position: absolute;
+   bottom: -10px; left: 9rem;
+   background-color: rgb(121, 216, 245);
+   border-radius: 40%;
+   line-height: 50px;
+   
+}
+.dialog .dialog-box .rd{
+    width:30px;
+    height:30px;
+    position: absolute;
+   bottom: -10px; right: 0rem;
+   background-color: rgb(255, 82, 82);
+   border-radius: 40%;
+   line-height: 50px;
+   
+}
+.dialog .dialog-box header .X:hover{
+    transform: scale(.9);
+}
+footer{
+    text-align: center;
+
+}
